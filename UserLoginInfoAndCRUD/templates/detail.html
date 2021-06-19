@@ -1,0 +1,88 @@
+{% extends 'nav.html' %}
+{% block content %}
+<br><br>
+<form action="" method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+<div class="col d-flex justify-content-center">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body bg-light">
+               <!-- <img src="/media/{{form.Img.url}}" alt=""> -->
+               <div class="row">
+                   <div class="col-4">
+                    <img src="/media/{{det.Img}}/" alt="" style="height: 150px; width: 150px; border-radius: 50%;">
+                   </div>
+                   <div class="col-8">
+                       <br><br>
+                        {{form.Img}}
+                   </div>
+               </div>
+               <!-- {{form.as_p}} -->
+               <br>
+               <label for="">firstName</label>
+               {{form.firstName}}
+               <br>
+               <label for="">lastName</label>
+               {{form.lastName}}
+               <br>
+               <label for="">Email</label>
+               {{form.email}}
+               <br>
+               <label for="">Gender</label>
+               {{form.Gender}}
+               <br>
+               <label for="">Age</label>
+               {{form.Age}}
+               <br>
+               <label for="">Desc</label>
+               {{form.Desc}}
+               
+                <br>
+                 <button class="btn btn-primary btn-lg btn-block">Update</button>   
+               
+            </div>
+        </div>
+    </div>
+</div>
+                <!-- <div class="row">
+                <div class="col-4">
+                <img src="/media/{{det.Img}}" style="height:150px;width:150px; border-radius:50%;">
+            </div>
+            <div class="col-8">
+                <label for="">FirstName</label>
+                <input type="text" value = {{det.firstName}} class="form-control">
+                <br>
+                <label for="">LastName</label>
+                <input type="text" value = {{det.lastName}} class="form-control">
+                <br>
+
+            </div>
+            <label for="">Email</label>
+            <input type="email" value={{det.email}} class="form-control">
+            <br>
+            <label for="age">Age</label>
+            <input type="number" value="{{det.Age}}" class="form-control">
+            <br>
+            <label for="gender">Gender</label>
+            <select class="form-control">
+                <option value="{{det.Gender}}">{{det.Gender}}</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Prefer Not To Say">Prefer Not To Say</option>
+            </select>
+            <br>
+            <label for="desc">Desc</label>
+            <textarea name="" id="" cols="30" rows="10" value="{{det.Desc}}" class="form-control">{{det.Desc}}</textarea>
+        </div>
+            <br>
+        <button class="btn btn-primary btn-lg btn-block"> Update Profile</button>
+
+            </div>
+            
+        </div>
+    </div>
+</div>
+<br><br> -->
+
+</form>
+{% endblock content %}

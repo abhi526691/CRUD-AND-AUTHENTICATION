@@ -1,0 +1,58 @@
+{% extends 'nav.html' %}
+{% load static %}
+{% block content %}
+
+
+<body style="background-image: url(../static/images/download.jpg); background-repeat:no-repeat;background-size:100%;">
+    <br><br>
+    <div class="container-fluid" style="text-align: center;">
+    <h1 style="text-align:center;">Abhishek Pandey</h1>
+    <h4 style="text-align: center;">I made this website for studying purpose you can learn CRUD operation and authentication system from this website</h4><br>
+        <h5 style="text-align: center;">SignUp, Login, Logout Options</h5>
+        <h5 style="text-align: center;">Create Your Profile</h5>
+            <h5 style="text-align: center;">Update your profile if needed</h5>
+                <h5 style="text-align: center;">You can create home page as your need</h5>
+                <br>
+                <div class="col d-flex justify-content-center">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body bg-light">
+        <div class="row">
+            <div class="col-8">
+                <h6>Create Your Profile By clicking on below Link</h6>
+            </div>
+            <div class="col-4">
+                <a href="/profile/"><button class="btn btn-primary">Profile</button></a>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-8">
+                <h6>Register Your ID By clicking on below Link</h6>
+            </div>
+            <div class="col-4">
+                <a href="/register/"><button class="btn btn-primary">Register</button></a>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-8">
+                <h6>Login Your ID By clicking on below Link</h6>
+            </div>
+            <div class="col-4">
+                <a href="/login/"><button class="btn btn-primary">Login</button></a>
+            </div>
+        </div>
+
+
+        </div>
+    </div>
+</div>
+</div>
+        
+        
+</div>
+
+<br>
+</body>
+{% endblock content %}
