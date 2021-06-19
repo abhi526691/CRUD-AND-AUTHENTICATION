@@ -1,17 +1,17 @@
 
 # Introduction
 
-This is a simple scheduling making website made in django. To kickstart your journey in django you can go for this project in your learning phase of django.
+This is a simple website made in django. To kickstart your journey in django you can go for this project in your learning phase of django. This project contains CRUD operation as well as Authentication System made in django which is must in any framework you are learning
 
 ![Default Home View](screenshots/Index.png "Title")
 
 ### Main features
 
-* Register and Login so that only you can see your appointments
+* Register, Login and Logout
 
-* Schedule Your Important Thing to do
+* Profile Page 
 
-* Easy to check your appointments
+* Profile Updation Page
 
 * Futute Enchancement: Email Alert System
 
@@ -26,7 +26,7 @@ If your project is already in an existing python3 virtualenv first install djang
 And then run the `django-admin.py` command to start the new project:
 
     $ django-admin.py startproject \
-      --template=https://github.com/abhi526691/ScheduleMaker \
+      --template=https://github.com/abhi526691/CRUD-AND-AUTHENTICATION \
       --extension=py,md \
       <ScheduleMaker>
       
@@ -41,7 +41,7 @@ If you don't have django installed for python 3 then run:
 And then:
 
     $ python3 -m django startproject \
-      --template=https://github.com/abhi526691/ScheduleMaker \
+      --template=https://github.com/abhi526691/CRUD-AND-AUTHENTICATION \
       --extension=py,md \
       <ScheduleMaker>
       
@@ -56,7 +56,7 @@ After that just install the local dependencies, run migrations, and start the se
 
 First clone the repository from Github and switch to the new directory:
 
-    $ git clone git@https://github.com/abhi526691/ScheduleMaker{{ ScheduleMaker }}.git
+    $ git clone git@https://github.com/abhi526691/CRUD-AND-AUTHENTICATION{{ CRUD-AND-AUTHENTICATION }}.git
     $ cd {{ ScheduleMaker }}
     
 Activate the virtualenv for your project.
