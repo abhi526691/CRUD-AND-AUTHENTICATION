@@ -82,4 +82,4 @@ You can now run the development server:
 
 Abhishek Pandey - [linkedin](https://www.linkedin.com/in/abhishek-pandey-1515aa171/) - sauravpandey597@gmail.com
 
-Project Link: [https://github.com/abhi526691/ScheduleMaker/](https://github.com/abhi526691/CRUD-AND-AUTHENTICATION)
+Project Link: [https://github.com/abhi526691/CRUD-AND-AUTHENTICATION](https://github.com/abhi526691/CRUD-AND-AUTHENTICATION)
