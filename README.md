@@ -43,14 +43,14 @@ And then:
     $ python3 -m django startproject \
       --template=https://github.com/abhi526691/CRUD-AND-AUTHENTICATION \
       --extension=py,md \
-      <ScheduleMaker>
+      <CRUD-AND-AUTHENTICATION>
       
       
 After that just install the local dependencies, run migrations, and start the server.
 
 {% endif %}
 
-# ScheduleMaker
+# CRUD-AND-AUTHENTICATION
 
 # Getting Started
 
