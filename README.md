@@ -3,7 +3,7 @@
 
 This is a simple scheduling making website made in django. To kickstart your journey in django you can go for this project in your learning phase of django.
 
-![Default Home View](screenshots/Index.PNG "Title")
+![Default Home View](screenshots/Index.png "Title")
 
 ### Main features
 
