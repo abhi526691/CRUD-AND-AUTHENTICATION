@@ -3,7 +3,7 @@
 
 This is a simple website made in django. To kickstart your journey in django you can go for this project in your learning phase of django. This project contains CRUD operation as well as Authentication System made in django which is must in any framework you are learning
 
-![Default Home View](screenshots/Index.png "Title")
+![Default Home View](screenshots/Index1.png "Title")
 
 ### Main features
 
